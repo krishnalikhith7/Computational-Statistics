@@ -1,0 +1,9 @@
+def remove(dup): 
+    a = [] 
+    for num in dup: 
+        if num not in a: 
+            a.append(num) 
+    return a 
+dup= [10,20,30,30,50,10,10,40,60,10] 
+print(remove(dup))
+ 
